@@ -7,7 +7,7 @@ import errno
 try:
 	if len(sys.argv) < 3:
 		print('[+] This is just a demo of the script')
-		print('[+] Usage: %s IP Path_To_Safe_The_Results') % sys.argv[0]
+		print('[+] Usage: %s IP Path_To_Save_The_Results') % sys.argv[0]
 		print('[+] Example: %s 192.168.56.101 /root/Desktop/') % sys.argv[0]
 		exit(0)
 	else:
